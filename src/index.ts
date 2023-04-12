@@ -5,6 +5,7 @@ import dbConnection from "./config/mongo";
 
 dotenv.config();
 
+// * server PORT || local PORT
 const PORT = process.env.PORT || 3000;
 
 dbConnection().then(() => {
